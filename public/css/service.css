@@ -1,0 +1,15 @@
+/* 로그인 & 회원가입 */
+.right-header { float: right; }
+.util {
+    display: block;
+    line-height: 90px;
+}
+.util > li {
+    float: left;
+    font-size: 16px;
+    color: #0c2a1d;
+    margin-left: 33px;
+}
+.util > li > a { position: relative; }
+.util > li:hover a { color: #0c2a1d; }
+.util > li:first-child > a:before { display: none}
